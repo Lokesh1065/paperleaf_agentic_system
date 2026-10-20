@@ -1,0 +1,10 @@
+# Ignore the virtual environment folder (saves thousands of files)
+.venv/
+env/
+
+# Ignore secrets and API keys (CRITICAL)
+.env
+
+# Ignore Python cache files (keeps repo clean)
+__pycache__/
+*.pyc
